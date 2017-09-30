@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@android:color/holo_green_light"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+
+    tools:context="com.blogbasbas.haripertama.LoginActivity">
+
+    <LinearLayout
+        android:layout_marginTop="60dp"
+        android:background="@color/cek"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="250dp">
+    <EditText
+        android:drawableLeft="@drawable/ic_username"
+        android:gravity="center"
+        android:textColorHint="@android:color/black"
+        android:hint="input Username"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+    <EditText
+        android:drawableLeft="@drawable/ic_username"
+        android:gravity="center"
+        android:textColorHint="@android:color/black"
+        android:hint="input Password"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+        <View
+            android:layout_gravity="center"
+            android:background="@color/colorPrimary"
+            android:layout_width="250dp"
+            android:layout_height="2dp"
+            />
+        <Button
+            android:background="@android:color/holo_red_dark"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:text="Log In TO My Acount"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center"
+            android:text="@string/feeling_gratefull"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <View
+            android:gravity="center"
+            android:layout_weight="1"
+            android:background="@color/colorPrimary"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"/>
+        <TextView
+            android:textColor="@color/colorPrimary"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:text="OR"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <View
+            android:layout_weight="1"
+            android:background="@color/colorPrimary"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:orientation="vertical"
+        android:background="@color/cek"
+        android:layout_width="match_parent"
+        android:layout_height="120dp">
+        <Button
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center"
+            android:drawableLeft="@mipmap/ic_fb"
+            android:background="@color/blue"
+            android:text="sign in with facebook"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content" />
+        <Button
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center"
+            android:drawableLeft="@mipmap/ic_twitter"
+            android:background="@color/blueL"
+            android:text="sign in with twitter"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:textColor="@color/colorPrimary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/www_coba_com"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</LinearLayout>

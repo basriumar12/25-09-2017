@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <View
+        android:id="@+id/view1"
+        android:background="@android:color/white"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"/>
+    <View
+
+        android:layout_below="@+id/view1"
+        android:background="@android:color/holo_red_dark"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <ImageView
+        android:src="@drawable/a1_2_mengenalbuah"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:id="@+id/imageView2"
+        android:layout_marginEnd="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="43dp" />
+    <TextView
+        android:textSize="30sp"
+        android:textColor="@android:color/black"
+        android:text="Buah - Buah"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+
+        android:layout_marginTop="13dp"
+        android:layout_below="@+id/imageView2"
+        android:layout_alignEnd="@+id/imageView2"
+        android:layout_marginEnd="8dp" />
+
+</RelativeLayout>
